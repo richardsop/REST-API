@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Welcome to Flask!</h1>
+<h1>Welcome NationalNames!</h1>
 <br>
 <br><br>
-<h3>Posts:</h3>
-{% for post in posts %}
-  <strong>ID:</strong> {{ NationalNames.id }} <br>
-  <strong>NAME:</strong> {{ NationalNames.name }} <br>
+<h3>NationalNames:</h3>
+{% for NationalalNames in NationalNames %}
+  <strong>ID:</strong> {{ NationalNames.Id }} <br>
+  <strong>NAME:</strong> {{ NationalNames.Name }} <br>
   <strong>YEAR:</strong> {{ NationalNames.Year }} <br>
   <strong>GENDER:</strong> {{ NationalNames.Gender }} <br>
 <br>

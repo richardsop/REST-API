@@ -14,11 +14,10 @@ app.database = 'sample.db'
 
 # use decorators to link the function to a url
 @app.route('/')
-#@login_required
 def home():
-    # return "Hello, World!"  # return a string
+    # return a string
     g.db = connect_db()
-    cur = g.db.execute('select * from posts')
+    cur = g.db.execute('select * from NationalNames')
     posts = [dict(Id=row[0], Name=row[1], Year=row[1], Gender=row[1]) for row in cur.fetchall()]
     g.db.close()
     return render_template('index.html', posts=posts)  # render a template
