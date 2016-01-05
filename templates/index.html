@@ -5,11 +5,12 @@
 <br>
 <br><br>
 <h3>NationalNames:</h3>
-{% for NationalalNames in NationalNames %}
-  <strong>ID:</strong> {{ NationalNames.Id }} <br>
-  <strong>NAME:</strong> {{ NationalNames.Name }} <br>
-  <strong>YEAR:</strong> {{ NationalNames.Year }} <br>
-  <strong>GENDER:</strong> {{ NationalNames.Gender }} <br>
+{% for NationalName in NationalNames %}
+  <strong>ID:</strong> {{ NationalName.Id }} <br>
+  <strong>NAME:</strong> {{ NationalName.Name }} <br>
+  <strong>YEAR:</strong> {{ NationalName.Year }} <br>
+  <strong>GENDER:</strong> {{ NationalName.Gender }} <br>
+  <strong>COUNT:</strong> {{ NationalName.Count }} <br>
 <br>
 {% endfor %}
 
