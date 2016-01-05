@@ -1,9 +1,9 @@
 # REST-API
 Flask REST API     
-Representational State Transfer (REST) API (Application Program Interface) using Flask. This uses a MVC (Model, View, Controller) software design pattern in organising code in an application to improve maintainability. MVC separates domain/application/business logic from the rest of the user interface. The model manages fundamental behaviors and data of the application such as database, or any number of data structures. The view effectively provides the user interface element of the application. It'll render data from the model into a form that is suitable for the user interface. The controller receives user input and makes calls to model objects and the view to perform appropriate actions.
+Representational State Transfer (REST) API (Application Program Interface) using Flask. This uses MVC (Model, View, Controller) software architecture pattern concept, in organising code in an application to improve maintainability. MVC separates domain/application/business logic from the rest of the user interface. The model manages fundamental behaviors and data of the application such as database, or any number of data structures. The view effectively provides the user interface element of the application. The view renders data from the model into a form that is suitable for the user interface. The controller receives user input and makes calls to model objects and the view to perform appropriate actions.
 
 
-The software uses REST pinciples involving separating an API into logical resources. These resources are manipulated using method (GET, POST, PUT, DELETE) that has specific meaning. The software demostrates how to build and deploy highly customizable, fully featured RESTful Web Services, that gives a properly content negotiated responses.
+The software uses REST pinciples involving separating application into logical resources. These resources are manipulated using method (GET, POST, PUT, DELETE) that has specific meaning. The software demostrates how to build and deploy highly customizable, fully featured RESTful Web Services, that gives a properly content negotiated responses.
 
 
 ## Requirements
